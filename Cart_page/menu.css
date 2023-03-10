@@ -1,0 +1,371 @@
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#menupage-body{
+    display: flex;
+    justify-content: space-between;
+    width: 1314px;
+    margin: 0px auto;
+}
+ul,
+li {
+  list-style: none;
+  line-height: 1.5;
+  padding: 3.6px 0px 19.04px;
+  color: #494949;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+a {
+    color: #494949;
+    text-decoration: none;
+  }
+
+  #menupage-body > div {
+    /* border: 1px solid blue; */
+    padding: 0px 15px;
+  }
+
+  #menu-items {
+    /* border: 1px solid red; */
+    width: 328px;
+    position: fixed;
+    top: 145px;
+    z-index: 1;
+  }
+  
+  #product-items {
+    width: 985px;
+    margin-top: 120px;
+    margin-left: 275px;
+    z-index: 3;
+  }
+
+#search_inp{
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-around; */
+}
+.search-box img {
+    padding-right: 8px;
+  }
+  
+  .search-box > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0px 0px 6px;
+    padding: 8px 17px;
+    border-style: none;
+    border-radius: 25px;
+    border: 2px solid rgb(160, 160, 160);
+  }
+  .search-box > button:hover{
+   border-color:rgb(235, 212, 5) ;
+  }
+  
+  #search-value {
+    border-style: none;
+    outline: 0px;
+  }
+
+  .filter-box >select{
+    width: 150px;
+    border-radius: 25px;
+    margin: 0px 0px 6px;
+    padding: 8px 17px;
+    color: white;
+    background-color: #f8af10;
+    border: none;
+    font-weight: bolder;
+
+  }
+  .filter-box >select>option{
+    background-color: #fff;
+    color:#f8af10;
+  }
+  /* .filter-box > button:hover {
+    border: 2px solid #e4002b;
+  } */
+ #EXCLUSIVE{
+    background-color: #f8f7f5;
+ }
+ h2{
+    padding-top: 20px;
+    margin-left: 20px;
+ }
+
+ /* .card_header_title{
+  margin: 0px 0px;
+ } */
+ #img_ex{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  #EXCLUSIVE >div{
+   
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  .menu_card_details>div{
+    margin-left: 20px;
+
+  }
+  .card_details_title{
+    color: black;
+    font-weight: bold;
+  }
+  .price{
+    color: rgb(241, 90, 3);
+    font-weight: bold;
+  }
+  .menu_card_title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#202124;
+    font-weight: bold;
+  }
+  .non_veg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #pdiv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#202124;
+    font-weight: bold;
+    display: flex;
+    gap:10px;
+  }
+  #pdiv>.strikoff_price{
+    text-decoration: line-through;
+  }
+  #pdiv>.price{
+    color:#ff2e00;
+  }
+  #btn-Addtocart{
+    color: white;
+    background-color:#e4002b ;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    font-weight: bold;
+    height: 40px;
+    width:150px
+  }
+
+/* card */
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  row-gap: 40px;
+  padding-bottom: 48px;
+}
+.card_header_title {
+  padding: 0px 0px 0px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 8px;
+  box-shadow: rgba(118, 132, 141, 0.3) 0px 1px 2px 0px,
+    rgba(52, 59, 65, 0.15) 0px 2px 6px 2px;
+}
+.card .card_img img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card .card_img img:hover {
+  border: 1px solid orange;
+}
+
+.card .card_details {
+  padding: 10px 24px;
+}
+.card .card_details > div {
+  margin: 11px auto;
+}
+.card_btn_div {
+  text-align: center;
+  margin: 30px 0px 20px;
+}
+.btn_addtoCart {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #e40026;
+  padding: 11px 40px;
+  border-style: none;
+  border-radius: 25px;
+  transition: 0.3s;
+ 
+}
+
+.btn_addtoCart:hover {
+  /* border: 1px solid orange; */ 
+  cursor: pointer;
+  scale: 1.2;
+}
+.btn_addtoCart img {
+  padding-left: 10px;
+}
+
+#lth {
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #e40026;
+  padding: 11px 40px;
+  border-style: none;
+  border-radius: 25px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#htl{
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #e40026;
+  padding: 11px 40px;
+  border-style: none;
+  border-radius: 25px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
+/* navbar */
+
+body{
+  margin: 0;
+}
+
+.navbar{
+  position:fixed;
+  display: flex;
+  justify-content: space-between;   
+  background-color: white;
+  width: 100%;
+  padding: 25px 11% 25px 6%;
+  box-sizing: border-box;
+  height: 103px;
+  font-family: sans-serif;
+  font-weight: 550;
+  z-index: 10;
+  font-size: .85rem;
+  margin-bottom: 100px;
+  top: 0;   
+}
+
+.nav-checkbtn{
+  display: none;
+}
+
+.navbar *{
+  cursor: pointer;
+}
+
+.navbar-left{
+  display: flex;
+  height: 52px;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+}
+
+.navbar-left *{
+  margin: 0;
+}
+.navbar-left>img{
+  width:65px;
+}
+
+.navbar-right{
+  display: flex;
+  width: 20%;
+  margin-left: 700px;
+  justify-content: space-around;
+  align-items: center;   
+  gap:45px;
+}
+.navbar-right *{
+  margin: 0;
+}
+#navbar-cart-bucket1{
+margin-top: 20px;
+margin-right: 10px;
+}
+
+.man-icon{
+  width: 10%;
+}
+
+.navbar-right>img:last-child{
+  width: 50px;
+}
+
+.account{
+  border-right: 1px solid rgb(175, 175, 175);
+  padding-right: 10px;
+  height: 17px;
+}
+
+.sample-body{
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+}
+
+
+
+@media screen and (max-width: 800px){
+ 
+  .nav-checkbtn {
+      display: block;
+  }
+
+  .hide-item{
+      display: none;
+  }
+  .navbar-right>img:last-child{
+      width: 40px;
+  }
+
+  .navbar-left{
+      justify-content: space-between;
+      align-items: center;
+      width: 56%;
+  }
+
+  .navbar-left>img{
+      width: 60px;
+  }
+
+/* nav-end */
+
+  #badadiv{
+    display: block;
+  }
+}
