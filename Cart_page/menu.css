@@ -125,6 +125,14 @@ a {
     margin-left: 20px;
 
   }
+  .card_details_title{
+    color: black;
+    font-weight: bold;
+  }
+  .price{
+    color: rgb(241, 90, 3);
+    font-weight: bold;
+  }
   .menu_card_title{
     margin-top: 10px;
     margin-bottom: 10px;

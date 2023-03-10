@@ -19,6 +19,7 @@
 //     localStorage.setItem("all-data", JSON.stringify(gd));
 //   }
 
+
 document.getElementById("navbar-cart-bucket").addEventListener("click",()=>{
      location.href = "cart.html";
     //  location.reload();
@@ -247,6 +248,11 @@ function displayFood (dataArr){
         card_container.append(card);
       });
 //   });
+
+document.querySelector(".card_img").addEventListener("click", ()=>{
+  location.href="details.html";
+})
+
 }
 
 document.getElementById("navbar-cart-bucket1").textContent = cartData.length;
@@ -305,20 +311,15 @@ document.getElementById("navbar-cart-bucket1").textContent = cartData.length;
 
  
 
-  // let cartData = JSON.parse(localStorage.getItem("cart-data")) || [];
-
-  // function AddtoCard(ele){
-  //   var obj = {
-  //     img : ele.Image,
-  //     des: ele.description,
-  //     // price : ele.price,
-  //     p : Number(ele.price.substring(1, ele.price.length)),
-  //     title:ele.title,
-  //     qty: ele.qty,
-  //     veg : ele.veg,
-
+  // async function search(){
+  //   let inp = document.getElementById("search-value").value;
+  //   try{
+  //     let data = await fetch(`https://kfc-menu-api.onrender.com/?q=${inp}`)
+  //     let jdata = await data.json();
+  //     console.log(jdata);
   //   }
-  //   cartData.push(ele);
-  //   localStorage.setItem("cart-data", JSON.stringify(cartData));
-
+  //   catch(e){
+  //      console.log(e)
+  //   }
   // }
+  // search();

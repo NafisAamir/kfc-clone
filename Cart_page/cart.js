@@ -1,4 +1,12 @@
 
+
+
+
+// document.querySelector(".cart-item").addEventListener("click", ()=>{
+//   location.href="details.html";
+// })
+
+
 let cartData = JSON.parse(localStorage.getItem("cart-data")) || [];
 
 
@@ -161,7 +169,7 @@ function incFun(ele, i) {
   localStorage.setItem("cart-data", JSON.stringify(cartData));
   displayCartData(cartData)
   totalFun(cartData);
-  disc_gst();
+  // disc_gst();
  
 }
 
@@ -180,7 +188,7 @@ function decFun(ele,i) {
   localStorage.setItem("cart-data", JSON.stringify(cartData));
   displayCartData(cartData)
   totalFun(cartData);
-  disc_gst();
+  // disc_gst();
 }
 
 // total
@@ -195,10 +203,11 @@ let t = cartData.reduce((ac,elm)=>{
 t= t.toFixed(2);
 console.log(t);
 document.getElementById("Total-div-total").textContent =t;
-dis =t;
+dis = t;
 
-// disc_gst(dis);
-
+ let gst_p = dis*(12/100);
+  let finalPrice = parseInt(gst_p ) + parseInt(dis) ;
+  document.getElementById("Total-div-subtotal").textContent = finalPrice;
 // nav-price
 document.getElementById("navbar-price").textContent = t;
 }
@@ -214,15 +223,14 @@ document.getElementById("navbar-cart-bucket1").textContent =len;
 
 // gst
 // console.log(dis)
-disc_gst();
+// disc_gst();
 
-function disc_gst(){
-  let discounted_p = dis-(dis*(12/100));
-  discounted_p = discounted_p.toFixed(2);
-  console.log(discounted_p);
-  document.getElementById("Total-div-subtotal").textContent = discounted_p;
+// function disc_gst(){
+ 
+//   console.log(discounted_p);
+  // document.getElementById("Total-div-subtotal").textContent = finalPrice;
 
-}
+// }
 
 
 // nav- price
