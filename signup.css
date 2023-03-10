@@ -1,0 +1,145 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+#main{
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 27rem;
+    padding: 2px;
+}
+#signin-header{
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #494949;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    /* font-family: 'National2-Medium'; */
+    margin-bottom: 7%;
+}
+
+#title{
+    text-align: center;
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.01px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-bottom: 7%;
+}
+#details{
+    text-align: left;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #202124;
+    outline: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #202124;
+    padding-bottom: 0.7%;
+    margin-bottom: 7%;
+    /* position: relative; */
+}
+#details input{
+    background: transparent;
+   border: none;
+   font-size: 14px;
+   color: black;
+   width: 100%;
+}
+#details input:focus{
+    outline: none;
+ }
+#details input::placeholder{
+    font-size: 14px;
+    color: black;
+ }
+ #terms{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #202124;
+    margin-bottom: 7%;
+}
+
+#submit{
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+#submit button{
+    height: 44px;
+    padding: 10px 40px;
+    color: black;
+    font-size: 13px;
+    background-color:rgb(219, 219, 219);
+    border: none;
+    outline: none;
+    border-radius: 200px;
+    cursor: pointer;
+    font-weight: bold;
+}
+body button:hover{
+    cursor: pointer;
+}
+#orDiv{
+    display: flex;
+    margin: 5% 0;
+}
+#orleft{
+    width: 100%;
+    border-top: 1px solid #000000;
+    margin-top: 10px;
+    opacity: 0.1;
+}
+#orcenter{
+    margin: 0 4%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #202124;
+}
+#orright{
+    width: 100%;
+    border-top: 1px solid #000000;
+    margin-top: 10px;
+    opacity: 0.1;
+}
+#skipbtn button{
+    width: 100%;
+    background: #ffffff;
+    color: #202124;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    outline: none;
+    border-radius: 66px;
+    border: 1px solid #202124;
+    padding: 8px 40px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1000px) {
+    /* Medium Screen  */
+    #main{
+        max-width: 95%;
+        box-shadow: none;
+    }
+    #submit button{
+        width: 80%;
+    }
+}

@@ -1,0 +1,101 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+#main{
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 27rem;
+    padding: 2px;
+}
+#signin-header{
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #494949;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    /* font-family: 'National2-Medium'; */
+    margin-bottom: 7%;
+}
+#logo{
+    margin-bottom: 7%;
+}
+#title{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.01px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-bottom: 7%;
+}
+#mobno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #494949;
+}
+#samemobno{
+    font-weight: bold;
+}
+#code input{
+    width: 60%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 2px solid #494949;
+    outline: none;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #202124;
+    margin-bottom: 7%;
+}
+#resend input{
+    color: #494949;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    margin-bottom: 7%;
+}
+#submit button{
+    background-color: rgb(219, 219, 219);
+    color: rgb(32, 33, 36);
+    cursor: pointer;
+    border-radius: 200px;
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+}
+@media only screen and (max-width: 1000px) {
+    /* Medium Screen  */
+    #main{
+        max-width: 95%;
+        box-shadow: none;
+    }
+    #submit button{
+        width: 80%;
+    }
+}
