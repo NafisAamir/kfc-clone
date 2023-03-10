@@ -1,11 +1,15 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
+  body{
+    background-color: #ebebeb;
+  }
 .container{
     /* border: 2px solid red; */
+    background-color: white;
     box-shadow: 0 0.4rem 0.9rem rgb(0 0 0 / 15%);
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     max-width: 25rem;
     padding: 10px;
 }
