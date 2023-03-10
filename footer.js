@@ -11,37 +11,37 @@ export function footer(){
   <table>
     <tr>
       <td>KFC Food</td>
-      <td>Support</td>
-      <td>Legal</td>
-      <td>KFC India</td>
+      <td><a href="">Support</a></td>
+      <td><a href="">Legal</a></td>
+      <td><a href="">KFC India</a></td>
     </tr>
 
     <tr>
       <td>Menu</td>
-      <td>Get Help</td>
-      <td>Terms and Conditions</td>
-      <td>About KFC</td>
+      <td><a href="">Get Help</a></td>
+      <td><a href="https://online.kfc.co.in/terms-and-conditions">Terms and Conditions</a></td>
+      <td><a href="https://online.kfc.co.in/about-kfc">About KFC</a> </td>
     </tr>
 
     <tr>
-      <td>Order Lookup</td>
-      <td>Contact Us</td>
-      <td>Privacy Policy</td>
-      <td>KFC Care</td>
+      <td><a href="">Order Lookup</a></td>
+      <td><a href="">Contact Us</a></td>
+      <td><a href="https://online.kfc.co.in/privacyPolicy">Privacy Policy</a></td>
+      <td><a href="https://online.kfc.co.in/about-kfc/kfc-care">KFC Care</a></td>
     </tr>
 
     <tr>
-      <td>Gift Card</td>
-      <td>KFC Feedback</td>
-      <td>Disclaimer</td>
-      <td>Careers</td>
+      <td><a href="">Gift Card</a></td>
+      <td><a href="">KFC Feedback</a></td>
+      <td><a href="https://online.kfc.co.in/about-kfc/disclaimer">Disclaimer</a></td>
+      <td><a href="https://online.kfc.co.in/about-kfc/careers">Careers</a></td>
     </tr>
 
     <tr>
-      <td>Nutrition Allergen</td>
-      <td>Privacy Policy</td>
-      <td>Caution Notice</td>
-      <td>Our Golden Past</td>
+      <td><a href="">Nutrition Allergen</a></td>
+      <td><a href="https://online.kfc.co.in/privacyPolicy">Privacy Policy</a></td>
+      <td><a href="https://online.kfc.co.in/about-kfc/caution-notice">Caution Notice</a></td>
+      <td><a href="https://online.kfc.co.in/about-kfc/our-golden-past">Our Golden Past</a></td>
     </tr>
   </table>
 
@@ -51,7 +51,7 @@ export function footer(){
       src="https://images.ctfassets.net/wtodlh47qxpt/6qgKpWUOIsrIiazhk3cdmF/d60b4c20be69bab1f939bf33348b67e9/Find_KFC.svg"
       alt=""
     />
-    <a href="">Find a KFC</a>
+    <a href="https://restaurants.kfc.co.in/">Find a KFC</a>
   </section>
 
   <!-- play store link  -->
