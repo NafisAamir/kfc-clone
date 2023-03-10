@@ -1,5 +1,7 @@
 
-
+import  {navbar} from "./navbar.js"
+  let na = document.querySelector(".navbar");
+  na.innerHTML = navbar();
 
 
 // window.onload
@@ -20,7 +22,7 @@
 //   }
 
 
-document.getElementById("navbar-cart-bucket").addEventListener("click",()=>{
+document.getElementById("navbar-cart-bucket").addEventListener("click",function(){
      location.href = "cart.html";
     //  location.reload();
 })
@@ -323,3 +325,15 @@ document.getElementById("navbar-cart-bucket1").textContent = cartData.length;
   //   }
   // }
   // search();
+  document.querySelector("#navbar-man-icon").onclick = () => {
+    location.href = "login.html";
+  };
+  document.querySelector("#navbar-account").onclick = () => {
+    location.href = "login.html";
+  };
+  document.querySelector("#navbar-cart-bucket").onclick = () => {
+    location.href = "cart.html";
+  };
+  document.querySelector(".cart-count").onclick = () => {
+    location.href = "cart.html";
+  };

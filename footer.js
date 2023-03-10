@@ -17,7 +17,7 @@ export function footer(){
     </tr>
 
     <tr>
-      <td>Menu</td>
+      <td><a href="./Cart_page/menu.html">Menu</a></td>
       <td><a href="">Get Help</a></td>
       <td><a href="https://online.kfc.co.in/terms-and-conditions">Terms and Conditions</a></td>
       <td><a href="https://online.kfc.co.in/about-kfc">About KFC</a> </td>

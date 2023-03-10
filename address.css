@@ -2,12 +2,17 @@ body{
     margin: 0;
     font-family: sans-serif;
     color: white;
+   
+}
+#backgroundimg{
+  width: 100vw;
+  height: 100vh;
 }
 
 .address-box {
     width: 31%;
     height: 670px;
-    top: 55%;
+    top: 15%;
     background-color: transparent;
     position: absolute;
     left: 5%;

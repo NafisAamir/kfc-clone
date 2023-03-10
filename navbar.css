@@ -71,6 +71,10 @@ body{
     position: relative;
     margin-top: 100px;
 }
+p a{
+    text-decoration: none;
+    color: black;
+}
 
 
 @media screen and (max-width: 800px){

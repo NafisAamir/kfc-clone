@@ -84,7 +84,7 @@ submitBtn.onclick = function (){
         let userAddressData = new AddressConstructor (cityName, deliveryAddress, phonenumber, zipCode)
         localStorage.setItem("addressData", JSON.stringify(userAddressData));
 
-        window.location.href = "../pages/payment.html"
+        window.location.href = "payment.html"
         
        
     }

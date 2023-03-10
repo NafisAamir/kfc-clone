@@ -15,6 +15,8 @@ html {
 }
 ul,
 li {
+  /* z-index: -999;
+  border: 2px solid red; */
   list-style: none;
   line-height: 1.5;
   padding: 3.6px 0px 19.04px;
@@ -40,7 +42,7 @@ a {
     width: 328px;
     position: fixed;
     top: 145px;
-    z-index: 1;
+    z-index: -999;
   }
   
   #product-items {
@@ -305,17 +307,11 @@ body{
 .navbar-right{
   display: flex;
   width: 20%;
-  margin-left: 700px;
   justify-content: space-around;
   align-items: center;   
-  gap:45px;
 }
 .navbar-right *{
   margin: 0;
-}
-#navbar-cart-bucket1{
-margin-top: 20px;
-margin-right: 10px;
 }
 
 .man-icon{
@@ -337,7 +333,10 @@ margin-right: 10px;
   position: relative;
   margin-top: 100px;
 }
-
+p a{
+  text-decoration: none;
+  color: black;
+}
 
 
 @media screen and (max-width: 800px){
@@ -362,10 +361,10 @@ margin-right: 10px;
   .navbar-left>img{
       width: 60px;
   }
+}
 
 /* nav-end */
 
   #badadiv{
     display: block;
   }
-}

@@ -3,12 +3,14 @@ export function navbar() {
       <div class="nav-checkbtn">
         <span class="material-symbols-outlined"> menu </span>
       </div>
-      <img 
-        src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" 
-        alt="KFC-LOGO"
-        id="navbar-kfc-logo"
-      />
-      <p id="navbar-menu" class="hide-item">Menu</p> 
+      <a href="index.html"><img 
+      src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" 
+      alt="KFC-LOGO"
+      id="navbar-kfc-logo"
+    /></a>
+      
+      <p id="navbar-menu" class="hide-item"><a href="./menu.html">Menu</a></p> 
+
       <a id="blog" href="#"style="text-decoration: none;><p id="navbar-about" class="hide-item" >Deals</p> </a> 
     </div>
   
@@ -21,9 +23,10 @@ export function navbar() {
       <p id="navbar-account" class="account hide-item">Account</p>
   
       <p id="navbar-price">₹0.00</p>
+      
       <img id="navbar-cart-bucket"
-        src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg"
-      />
+      src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg"
+    />
     </div>`;
   }
   

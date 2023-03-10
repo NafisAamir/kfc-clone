@@ -1,11 +1,17 @@
 
+// import  {footer} from "./footer.js"
+//   let na = document.querySelector(".footer-div");
+//   na.innerHTML = footer();
 
-
-
-// document.querySelector(".cart-item").addEventListener("click", ()=>{
-//   location.href="details.html";
-// })
-
+document.querySelector("#proceed").addEventListener("click", ()=>{
+  location.href="address.html";
+})
+document.querySelector("#navbar-kfc-logo").addEventListener("click", ()=>{
+  location.href="index.html";
+})
+document.getElementById("navbar-menu").addEventListener("click", function(){
+  location.href = "menu.html"
+})
 
 let cartData = JSON.parse(localStorage.getItem("cart-data")) || [];
 
@@ -198,7 +204,13 @@ totalFun(cartData);
 function totalFun(cartData){
 let t = cartData.reduce((ac,elm)=>{
 
-  return ac+Number((elm.price)*(elm.qty))
+  let priceWithoutSymbol = elm.price.replace("₹", "");
+let numericPrice = parseInt(priceWithoutSymbol);
+console.log(typeof (numericPrice))
+console.log( (elm.price))
+console.log(typeof (elm.qty))
+
+  return ac+Number((numericPrice)*(elm.qty))
 },0);
 t= t.toFixed(2);
 console.log(t);

@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
-
+    <!-- <link rel="stylesheet" href="navbar.css"> -->
     <!-- favicon -->
     <link rel="icon" href="https://w7.pngwing.com/pngs/521/788/png-transparent-kfc-the-colonel-hd-logo.png">
-
+     
+    <!-- <link rel="stylesheet" href="footer.css"> -->
 
     <link
     rel="stylesheet"
@@ -16,10 +17,7 @@
   />
 
   <!-- favicon  -->
-  <link
-    rel="icon"
-    href="https://cdn.iconscout.com/icon/free/png-256/kfc-2-226243.png?w=128&f=avif"
-  />
+  <link rel="icon" href="https://w7.pngwing.com/pngs/521/788/png-transparent-kfc-the-colonel-hd-logo.png">
   <!-- google font  -->
 
   <link
@@ -368,7 +366,14 @@
 }
 #navbar-cart-bucket1{
   margin-top: 20px;
-  margin-right: 25px;
+  /* margin-right: 80px; */
+  margin-left: -30px;
+  /* border: 1px solid red; */
+}
+#bucket-wrapper{
+  display: flex;
+  width: 50%;
+  height: 100%;
 }
 
 .navbar-right{
@@ -457,7 +462,7 @@
       id="navbar-kfc-logo"
     />
     <p id="navbar-menu" class="hide-item">Menu</p> 
-    <a id="blog" href="#"style="text-decoration: none;><p id="navbar-about" class="hide-item" >Deals</p> </a> 
+    <a id="blog" href="https://online.kfc.co.in/offers"style="text-decoration: none;><p id="" class="hide-item" >Deals</p> </a> 
   </div>
 
   <div class="navbar-right">
@@ -470,13 +475,16 @@
 
     <!-- <p id="navbar-price"></p> -->
     <p>₹<span id="navbar-price"> </span></p>
-    
-    <img id="navbar-cart-bucket"
+    <div id="bucket-wrapper">
+      <img id="navbar-cart-bucket"
       src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg"
     />
+    <div id="navbar-cart-bucket1"></div>
+    </div>
+   
     <!-- <p id="navbar-cart-bucket1"></p> -->
   </div>
-  <div id="navbar-cart-bucket1"></div>
+  
 
 </nav>
 
@@ -558,8 +566,7 @@
         <p>Our goal is to feed 20 million <br> people by 2023.</p>
       </div>
 
-      <button id="proceed" onclick="proceedtopayment()"> Checkout
-      </button>
+      <button id="proceed" > Checkout</button>
         
       </div>
 
@@ -573,6 +580,11 @@
 
 </div>
 
-<script src ="cart.js"></script>
+
+
+<!-- <script src="navbar.js" type="module"></script> -->
+<!-- <div class="footer-div"></div> -->
 </body>
 </html>
+<!-- <script src="./footer.js" type="module"></script> -->
+<script src ="cart.js"></script>

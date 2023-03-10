@@ -1,3 +1,11 @@
+// import  {navbar} from "./navbar.js"
+//   let na = document.querySelector(".navbar");
+//   na.innerHTML = navbar();
+
+//   import  {footer} from "./footer.js"
+//   let ft = document.querySelector(".footer");
+//   ft.innerHTML = footer();
+
 var inp=document.querySelector(".card-number-input");
 var year=document.querySelector(".year-input")
 var cvv=document.querySelector(".cvv-input")

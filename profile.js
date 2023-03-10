@@ -1,8 +1,9 @@
 // import Navbar
-import { navbar } from "../components/navbar/navbar.js";
+import { navbar } from "navbar.js";
 document.querySelector(".navbar").innerHTML = navbar();
 
-
+import { footer } from "footer.js";
+document.querySelector(".footer-div").innerHTML = footer();
 
 let Order_Container = document.querySelector(".Order-container");
 
@@ -28,24 +29,24 @@ display(sideArr);
 
 // .join("")
 
-var minute = 29;
-var second = 60;
+// var minute = 29;
+// var second = 60;
 
-setInterval(function () {
-  if (minute == 0 && second == 1) {
-    document.querySelector(".counter").innerHTML = "00:00";
-  } else {
-    second--;
-    if (second == 0) {
-      minute--;
-      second = 60;
-      if (minute == 0) {
-        minute = minute;
-      }
-    }
-    document.querySelector(".counter").innerHTML = minute + ":" + second;
-  }
-}, 1000);
+// setInterval(function () {
+//   if (minute == 0 && second == 1) {
+//     document.querySelector(".counter").innerHTML = "00:00";
+//   } else {
+//     second--;
+//     if (second == 0) {
+//       minute--;
+//       second = 60;
+//       if (minute == 0) {
+//         minute = minute;
+//       }
+//     }
+//     document.querySelector(".counter").innerHTML = minute + ":" + second;
+//   }
+// }, 1000);
 
 // PAGELINKING_
 let kfcLogo = document.querySelector("#navbar-kfc-logo");
