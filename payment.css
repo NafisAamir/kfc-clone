@@ -1,0 +1,84 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.container{
+    /* border: 2px solid red; */
+    box-shadow: 0 0.4rem 0.9rem rgb(0 0 0 / 15%);
+    margin: auto;
+    margin-top: 20px;
+    max-width: 25rem;
+    padding: 10px;
+}
+.container form{
+    max-width: 90%;
+}
+.inputBox{
+    text-align: left;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #202124;
+    outline: none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #202124;
+    padding: 12px;
+    padding-bottom: 0.6%;
+    margin-bottom: 7%;
+    /* position: relative; */
+}
+.inputBox input{
+    background: transparent;
+   border: none;
+   font-size: 14px;
+   color: black;
+}
+.inputBox input:focus{
+    outline: none;
+ }
+.inputBox input::placeholder{
+    font-size: 14px;
+    color: black;
+ }
+ .submit-btn{
+    height: 33px;
+    padding: 10px 35px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    outline: 2px solid black;
+    border-radius: 200px;
+    cursor: pointer;
+    margin-bottom: 7%;
+ }
+ .month-input, .year-input{
+    outline: none;
+    border: none;
+    font-size: 15px;
+ }
+
+ #warning1, #warning2 ,#warning3{
+    font-size: 12px;
+    color: #e4002b;
+    font-weight: bold;
+   padding: 0px;
+   margin: 0px;
+    
+}
+
+ @media only screen and (max-width: 1000px) {
+    /* Medium Screen  */
+    .container{
+        max-width: 95%;
+        box-shadow: none;
+        margin: auto;
+    }
+    .submit-btn{
+        width: 80%;
+    }
+    .container form{
+        max-width: 90%;
+    }
+}

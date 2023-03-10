@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="payment.css" />
+    
+    <link rel="icon" href="https://w7.pngwing.com/pngs/521/788/png-transparent-kfc-the-colonel-hd-logo.png">
+
+  <title>KFC PAYMENT</title>
+  
+  
+  </head>
+  <body>
+    <div class="container">
+      
+
+      <form action="">
+        <div class="inputBox">
+            <input type="text" class="card-holder-input" placeholder="Name on Card"/>
+          </div>
+        <div class="inputBox">
+          <p id="warning1"></p>
+          <input type="text" maxlength="16" class="card-number-input" placeholder="Card Number"/>
+         
+        </div>
+        
+        <div class="flexbox">
+          <div class="inputBox">
+            <select name="" id="" class="month-input">
+              <option value="month">month</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </div>
+
+          <div class="inputBox">
+            <p id="warning2"></p>
+            <select name="" id="" class="year-input">
+              <option value="year">year</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+              <option value="2026">2026</option>
+              <option value="2027">2027</option>
+              <option value="2028">2028</option>
+              <option value="2029">2029</option>
+              <option value="2030">2030</option>
+            </select>
+            
+          </div>
+          <div class="inputBox">
+            <p id="warning3"></p>
+            <input type="password" maxlength="3" class="cvv-input" placeholder="CVV"/>
+            
+          </div>
+          
+        </div>
+        <input type="submit" value="Submit" class="submit-btn" />
+      </form>
+    </div>
+
+    <div class="img">
+      <img src="../components/Images/payment.jpg" alt="">
+    </div>
+
+    <script src="payment.js"></script>
+  </body>
+</html>
