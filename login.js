@@ -15,3 +15,7 @@ submitBtn.addEventListener('click', function() {
     window.location.href = 'verify.html';
   });
 });
+
+document.getElementById("skipbtn").addEventListener("click", ()=>{
+  location.href ="index.html";
+})

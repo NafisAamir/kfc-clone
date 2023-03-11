@@ -266,12 +266,12 @@ closeDivBtn.onclick = function () {
 // redirect to address page
 let quickPick = document.querySelector(".quick-pick-btn");
 quickPick.onclick = function () {
-  window.location.href = "../pages/address-page.html";
+  window.location.href = "address.html";
 };
 
 let deliveryPick = document.querySelector(".delivery-btn");
 deliveryPick.onclick = function () {
-  window.location.href = "../pages/address-page.html";
+  window.location.href = "address.html";
 };
 
 // stop the fixed box
@@ -301,24 +301,24 @@ window.addEventListener("scroll", () => {
 // navbar linking
 let navKfcLogo = document.querySelector("#navbar-kfc-logo");
 navKfcLogo.onclick = function () {
-  window.location.href = "../index.html";
+  window.location.href = "index.html";
 };
 
 let navbarMenu = document.querySelector("#navbar-menu");
 navbarMenu.onclick = function () {
-  window.location.href = "../pages/menu.html";
+  window.location.href = "menu.html";
 };
 
 let mainIcon = document.querySelector("#navbar-man-icon");
 
 mainIcon.onclick = function  (){
-  window.location.href = "../pages/signup.html"
+  window.location.href = "login.html"
 }
 document.querySelector("#navbar-account").onclick = () => {
-  location.href = "../pages/profile.html";
+  location.href = "login.html"
 };
 document.querySelector("#navbar-cart-bucket").onclick = () => {
-  location.href = "../pages/cart.html";
+  location.href = "cart.html";
 };
 
 //cart total

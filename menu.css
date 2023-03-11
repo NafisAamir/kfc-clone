@@ -7,6 +7,22 @@ html {
 *{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* #cart-count{
+  width: 20px;
+  border: 1px solid blue;
+  height: 20px;
+  position:absolute;
+  right:300px;
+} */
+/* #bucket-wrapper{
+  width: 50px;
+  position: fixed;
+  left: -20px;
+  border: 1px solid red;
+  height: 100%;
+  z-index: -2;
+} */
 #menupage-body{
     display: flex;
     justify-content: space-between;
@@ -42,7 +58,7 @@ a {
     width: 328px;
     position: fixed;
     top: 145px;
-    z-index: -999;
+    /* z-index: -999; */
   }
   
   #product-items {
