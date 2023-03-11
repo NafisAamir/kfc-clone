@@ -47,7 +47,13 @@ var month=document.querySelector(".month-input")
         msg3.textContent="Enter 3-digit CVV*"
     }
     if(inp.value.length >= 12 && year.value!=2021 && year.value!=2022 && cvv.value.length ==3 && month.value!=null){
-        location.href = "index.html";
+
+      alert('Thank you, your payment is successful! ');
+      window.addEventListener('click', function() {
+        // Redirect to index.html when alert is clicked
+        window.location.href = 'index.html';
+      });
+        // location.href = "index.html";
     }
   })
 
