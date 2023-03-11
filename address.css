@@ -1,4 +1,11 @@
-body{
+
+  
+
+
+
+
+
+  body{
     margin: 0;
     font-family: sans-serif;
     color: white;
@@ -6,13 +13,13 @@ body{
 }
 #backgroundimg{
   width: 100vw;
-  height: 100vh;
+  height: 105vh;
 }
 
 .address-box {
     width: 31%;
     height: 670px;
-    top: 15%;
+    top: 1%;
     background-color: transparent;
     position: absolute;
     left: 5%;
@@ -106,4 +113,3 @@ input[type="submit"]{
     width: 600;
     height: 500;
   }
-  
